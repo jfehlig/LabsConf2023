@@ -11,8 +11,8 @@ capabilities.
 
 This talk will briefly describe the various virtualization packages and
 containers, and explore ways in which they can be used to create
-pre-defined and custom virtualization deployments in both traditional
+predefined and custom virtualization deployments in both traditional
 virtualization environments and containerized environments.
 
-Suggested length: 30min
-Potential presenters: Jim, Dario, Caleb and/or Vasily
+Suggested length: 30 or 45 minutes
+Potential presenters: Jim, Dario, Caleb
