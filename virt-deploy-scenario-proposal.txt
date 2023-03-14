@@ -1,8 +1,18 @@
 Virtualization stack deployment scenarios
 
-Xen and KVM virtualization stacks can be deployed in a number of ways. In traditional virtualization environments, deployments can be small and customized for a specific purpose, or large monoliths that include "everything plus the kitchen sink". For containerized environments, images providing a KVM stack are available, as well as images providing virtualization client tools such as virsh and virt-install. Kubevirt containers also exist to extend a kubernetes cluster with virtualization capabilities.
+Xen and KVM virtualization stacks can be deployed in a number of ways. In
+traditional virtualization environments, deployments can be small and
+customized for a specific purpose, or large monoliths that include
+"everything plus the kitchen sink". For containerized environments, images
+providing a KVM stack are available, as well as images providing
+virtualization client tools such as virsh and virt-install. Kubevirt
+containers also exist to extend a kubernetes cluster with virtualization
+capabilities.
 
-This talk will briefly describe the various virtualization packages and containers, and explore ways in which they can be used to create pre-defined and custom virtualization deployments in both traditional virtualization environments and containerized environments.
+This talk will briefly describe the various virtualization packages and
+containers, and explore ways in which they can be used to create
+pre-defined and custom virtualization deployments in both traditional
+virtualization environments and containerized environments.
 
 Suggested length: 30min
 Potential presenters: Jim, Dario, Caleb and/or Vasily
