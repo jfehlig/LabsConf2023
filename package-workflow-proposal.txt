@@ -1,0 +1,10 @@
+Experiments in git-based packaging workflows
+
+Many packages at SUSE are maintained using the old RPM process of taking unmodified sources released by upstream and applying changes in the form of patches. A spec file contains instructions telling the build service how to apply the changes, build the sources, and package the results. The process is well known by long-time packagers and scales well among those with packaging skills. But spec files, RPM packaging, and the build service are often viewed as black magic by newcomers. However, newcomers are quite familiar with git and the workflows provided by popular git foundries such as gitlab and github.
+
+This talk will investigate options for maintaining downstream packages within the same git repositories used for upstream development, leveraging the widespread knowledge of git workflows. Integration points between the build service and external source code management systems like git will be discussed, including how they can be used to automate downstream package maintenance.
+
+The talk will explore options for making the git sources available in the build service, discuss options to generate changelog entries from git commits, and describe possibilities for using the build service as the build stage in gitlab/github CI pipelines. Pain points and how those might be resolved will also be covered. We intend for this to be an interactive session, providing the opportunity to share knowledge on git+obs packaging workflows.
+
+Suggested length: 60min
+Potential presenters: Jim, Dario
